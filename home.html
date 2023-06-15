@@ -1,0 +1,263 @@
+<html>
+
+<link rel="stylesheet" href="university.css">
+
+<body>
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#registration">Registration</a>
+        <a href="#gallery">Gallery</a>
+        <a href="login.php">Login</a>
+        <a href="signup.php">SignUp</a>
+    </nav>
+   
+    <header>
+        <h1>A U University</h1>
+    </header>
+    <main>
+        <section id="home">
+            <h2>
+                Our Founder
+            </h2>
+            <img src="FOUNDER.jpg" alt="This is ANKIT PRAJAPATI">
+            <h3>ANKIT PRAJAPATI</h3>
+
+            <h4> </h4>
+            <h5>I help students across India find their right career path. I have been a guest speaker at 22 Colleges
+                including Top IITs, BITS Pilani, IIIT's, NIT's, SRCC, Jadavpur University etc. I am the #1 Educator of
+                JEE on India's biggest online platform
+                and I believe that everyone has the right to quality education and with the help of my social media
+                platforms, I have helped millions of students find their path to success in the last 5 years. In the
+                next few decades, India will rise
+                as the leader of the world with the maximum young workforce, but for this, we need some good pilots who
+                can take us through this. I help these young hustlers find their true potential so that they can fly us
+                to victory.</h5>
+                <p>Our mission is to offer a diverse range of programs and courses that cater to the needs and interests of our students. We strive to create an inclusive and supportive learning environment where every individual can thrive.</p>
+                <p>With a team of experienced faculty members and state-of-the-art facilities, we are committed to delivering excellence in education and preparing our students for successful careers.</p>
+                <p>Explore our website to learn more about our programs, admission process, and student resources. Feel free to contact us if you have any questions or would like to know more about what we offer.</p>
+              
+        </section>
+    </main>
+    <section id="registration">
+        <header>
+            <h1>REGISTRATION FORM</h1>
+        </header>
+        <div id="bg">
+            <br>
+            <div id="form">
+                <form id="registation-form" method="post" action="insert.php">
+                    <table id="table">
+                        <tr>
+                            <td>NAME:</td>
+                            <td>
+                                <input type="text" name="name" size="30" maxlength="30"/>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>EMAIL ID:
+                            </td>
+                            <td><input id="email" type="email" name="email" size="30" maxlength="100" />
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                MOBILE NO:
+
+                            </td>
+                            <td><input type="tel" name="number" size="30" maxlength="12"
+                             />
+                            </td>
+
+                        </tr>
+                        <tr>
+                            <td>GENDER:</td>
+                            <td><input id="female" type="radio" name="gender" value="f">
+                                <label for="female">Female</label>
+                                <input id="male" type="radio" name="gender" value="m">
+                                <label for="male">Male</label>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>ADDRESS:</td>
+                            <td><textarea rows="4" name="address" cols="40" id="comments">
+                 </textarea>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>CITY:</td>
+                            <td>
+                                <input type="text" name="city" size="30" maxlength="30"
+                                    />
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>STATE:</td>
+                            <td>
+                                <input type="text" name="state" size="30" maxlength="30"
+                                 />
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>COUNTRY:</td>
+                            <td>
+                                <input type="text" name="country" size="30" maxlength="30"
+                                 />
+                            </td>
+
+
+                        </tr>
+                        <tr>
+                            <td>
+                                <div class="buttonsss">
+                                <input
+                                 class="btnn" name="submit" type="submit"></input>
+                                <input class="btnn" name="reset" type="reset"></input>
+                            </div>  </td>
+                        </tr>
+                    </table>
+                </form>
+            </div>
+        </div>
+    </section>
+    <section id="gallery">
+        <header>
+            <h1>Our Gallery</h1>
+        </header>
+        <div class="fs-view">
+            <button class="close">&times</button>
+            <div class="img-fs-cont"><img class="fs-img" src="" alt=""></div>
+            <div class="controls">
+                <button class="left">&laquo</button>
+                <button class="right">&raquo</button>
+            </div>
+        </div>
+        <div class="gallery">
+            <div class="img-cont">
+                <img class="im" src="img1.jpg" alt="">
+            </div>
+            <div class="img-cont">
+                <img class="im" src="img2.jpg" alt="">
+            </div>
+            <div class="img-cont">
+                <img class="im" src="img3.jpg" alt="">
+            </div>
+            <div class="img-cont">
+                <img class="im" src="img4.jpg" alt="">
+            </div>
+            <div class="img-cont">
+                <img class="im" src="img2.jpg" alt="">
+            </div>
+            <div class="img-cont">
+                <img class="im" src="img6.jpg" alt="">
+            </div>
+            <div class="img-cont">
+                <img class="im" src="img3.jpg" alt="">
+            </div>
+            <div class="img-cont">
+                <img class="im" src="img1.jpg" alt="">
+            </div>
+        </div>
+    </section>
+   <!-- <section id="login/signup">
+        <div class="container1">
+            <div ><img src="BACKHGROUND.jpg" height="100%" width="100%">
+              <button class="log" onclick="login()">Login</button>
+              <button class="reg" onclick="signup()">Sign up</button>
+            </img>
+            </div>
+          </div>
+    </section>-->
+    <section id="contact">
+        <div class="section-header">
+            <div class="containercontact">
+              <h2>Contact Us</h2>
+              <p>We look to your problem at the earliest. Kindly fill the form for contacting us.</p>
+            </div>
+          </div>
+          
+          <div class="containercontact">
+            <div class="row">
+              
+              <div class="contact-info">
+                <div class="contact-info-item">
+                  <div class="contact-info-icon">
+                    <i class="fas fa-home"></i>
+                  </div>
+                  
+                  <div class="contact-info-content">
+                    <h4>Address</h4>
+                    <p>VIJAY NAGAR,<br/> INDORE<br/>453441</p>
+                  </div>
+                </div>
+                
+                <div class="contact-info-item">
+                  <div class="contact-info-icon">
+                    <i class="fas fa-phone"></i>
+                  </div>
+                  
+                  <div class="contact-info-content">
+                    <h4>Phone</h4>
+                    <p>571-457-2321</p>
+                  </div>
+                </div>
+                
+                <div class="contact-info-item">
+                  <div class="contact-info-icon">
+                    <i class="fas fa-envelope"></i>
+                  </div>
+                  
+                  <div class="contact-info-content">
+                    <h4>Email</h4>
+                   <p>hr@quallitywebs.com</p>
+                  </div>
+                </div>
+              </div>
+              
+              <div class="contact-form">
+                <form action="contact.php" method="post" id="contact-form">
+                  <h2>Send Message</h2>
+                  <div class="input-box">
+                    <input type="text" required="true" name="name">
+                    <span>Full Name</span>
+                  </div>
+                  
+                  <div class="input-box">
+                    <input type="email" required="true" name="email">
+                    <span>Email</span>
+                  </div>
+                  
+                  <div class="input-box">
+                    <textarea required="true" name="message"></textarea>
+                    <span>Type your Message...</span>
+                  </div>
+                  <div class="input-box">
+                    <input type="submit" name="submit" value="Send">
+                  </div>
+                </form>
+              </div>
+              
+            </div>
+          </div>
+        </section>
+               
+           <footer>
+        <div>
+            <a href="#">FAQ</a>
+            <a href="#contact">Contact Us</a>
+            <a href="#">Terms of Use</a>
+            <a href="#">Privacy Policy</a>
+            <a href="#">Refund Policy</a>
+        </div>
+        <h1>&copy; 2015 | A U University</h1>
+    </footer>
+</body>
+<script>
+    function login() {
+      window.location.href = "login.php";
+    }
+    function signup()
+{
+    window.location.href="signup.php";
+}  </script>
+
+</html>
